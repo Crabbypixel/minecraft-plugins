@@ -1,0 +1,220 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/paper"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "minecraft:custom/coffee_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "minecraft:custom/coffee_table_left"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "minecraft:custom/coffee_table_right"
+        },
+
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "minecraft:custom/wooden_chair"
+        },
+
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "minecraft:custom/big_wooden_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "minecraft:custom/empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "minecraft:custom/empty"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "minecraft:custom/empty"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "minecraft:custom/chalk"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "minecraft:custom/wooden_hanger"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "minecraft:custom/laptop"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "minecraft:custom/school_table"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "minecraft:custom/modern_block"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "minecraft:custom/monitor"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "minecraft:custom/airvent"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "minecraft:custom/wooden_desk"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "minecraft:custom/safe"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "minecraft:custom/shelf"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "minecraft:custom/pizza"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "minecraft:custom/donut"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "minecraft:custom/trash_bin"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "minecraft:custom/wooden_night_lamp_desk"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "minecraft:custom/tv"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 24
+            },
+            "model": "minecraft:custom/wooden_night_lamp_desk_02"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 25
+            },
+            "model": "minecraft:custom/road_block"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 26
+            },
+            "model": "minecraft:custom/power_grid"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 27
+            },
+            "model": "minecraft:custom/wooden_night_lamp_desk_03"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 28
+            },
+            "model": "minecraft:custom/wall_shelf"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 29
+            },
+            "model": "minecraft:custom/dining_table"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 30
+            },
+            "model": "minecraft:custom/poster_01"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 31
+            },
+            "model": "minecraft:custom/poster_02"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 32
+            },
+            "model": "minecraft:custom/poster_pizza"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 33
+            },
+            "model": "minecraft:custom/poster_pizza_02"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 34
+            },
+            "model": "minecraft:custom/poster_kfc"
+        },
+		{
+            "predicate": {
+                "custom_model_data": 35
+            },
+            "model": "minecraft:custom/pc"
+        }
+    ]
+}

@@ -1,0 +1,485 @@
+Furniture:
+  coffee_table:
+    display: '&fCoffee Table'
+    item: PAPER
+    model_data: 1
+    rotation: 4
+    submodels:
+    - offset:
+        x: 1
+        y: 0
+        z: 0
+      model_data: 3
+    overrides:
+      block-item:
+        model_data: 2
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.place
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  wooden_chair:
+    display: '&fWooden Chair'
+    item: PAPER
+    model_data: 4
+    rotation: 8
+    functions:
+      RIGHT_CLICK:
+      - type: CHAIR
+        y-offset: -0.3
+      PLACE:
+      - type: SOUND
+        sound: block.wood.place
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  big_wooden_table:
+    display: '&fBig Wooden Table'
+    item: PAPER
+    model_data: 5
+    rotation: 4
+    submodels:
+    - offset:
+        x: 1
+        y: 0
+        z: 0
+      model_data: 6
+    - offset:
+        x: 0
+        y: 0
+        z: -1
+      model_data: 7
+    - offset:
+        x: 1
+        y: 0
+        z: -1
+      model_data: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.place
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  chalk:
+    display: '&fChalk'
+    item: PAPER
+    model_data: 9
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  wooden_hanger:
+    display: '&fWooden Hanger'
+    item: PAPER
+    model_data: 10
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  laptop:
+    display: '&fLaptop'
+    item: PAPER
+    model_data: 11
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+   
+  school_table:
+    display: '&fSchool Table'
+    item: PAPER
+    model_data: 12
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  modern_block:
+    display: '&fModern Block'
+    item: PAPER
+    model_data: 13
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  monitor:
+    display: '&fMonitor'
+    item: PAPER
+    model_data: 14
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  airvent:
+    display: '&fAirvent'
+    item: PAPER
+    model_data: 15
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  wooden_desk:
+    display: '&fWooden Desk'
+    item: PAPER
+    model_data: 16
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  safe:
+    display: '&fSafe'
+    item: PAPER
+    model_data: 17
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  shelf:
+    display: '&fShelf'
+    item: PAPER
+    model_data: 18
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  pizza:
+    display: '&fPizza'
+    item: PAPER
+    model_data: 19
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  donut:
+    display: '&fDonut'
+    item: PAPER
+    model_data: 20
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  trash_bin:
+    display: '&fTrash Bin'
+    item: PAPER
+    model_data: 21
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  wooden_night_lamp_desk:
+    display: '&fNight Lamp Desk'
+    item: PAPER
+    model_data: 22
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  tv:
+    display: '&fTelevision'
+    item: PAPER
+    model_data: 23
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  wooden_night_lamp_desk_2:
+    display: '&fNight Lamp Desk 02'
+    item: PAPER
+    model_data: 24
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  road_block:
+    display: '&fRoad Block'
+    item: PAPER
+    model_data: 25
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  power_grid:
+    display: '&fPower Grid'
+    item: PAPER
+    model_data: 26
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  wooden_night_lamp_desk_3:
+    display: '&fNight Lamp Desk 3'
+    item: PAPER
+    model_data: 27
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  wall_shelf:
+    display: '&fWall Shelf'
+    item: PAPER
+    model_data: 28
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  dining_table:
+    display: '&fDining Table'
+    item: PAPER
+    model_data: 29
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  poster_curse_of_kazuo_umezu:
+    display: '&fThe Curse of Kazuo Umezu (1990)'
+    item: PAPER
+    model_data: 30
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  poster_serial_expriments_lain:
+    display: '&fSerial Expriments Lain (1998)'
+    item: PAPER
+    model_data: 31
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  poster_dominos:
+    display: '&fDominos Pizza Poster (1)'
+    item: PAPER
+    model_data: 32
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  poster_dominos_02:
+    display: '&fDominos Pizza Poster (2)'
+    item: PAPER
+    model_data: 33
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  poster_kfc_01:
+    display: '&fKFC Poster (1)'
+    item: PAPER
+    model_data: 34
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+        
+  pc:
+    display: '&fPC'
+    item: PAPER
+    model_data: 35
+    rotation: 8
+    functions:
+      PLACE:
+      - type: SOUND
+        sound: block.wood.break
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  stool:
+    display: '&fStool'
+    item: TIPPED_ARROW
+    model_data: 1
+    rotation: 8
+    functions:
+      RIGHT_CLICK:
+      - type: CHAIR
+        y-offset: -0.5
+      PLACE:
+      - type: SOUND
+        sound: block.wood.place
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  office_chair:
+    display: '&fOffice Chair'
+    item: TIPPED_ARROW
+    model_data: 2
+    rotation: 8
+    functions:
+      RIGHT_CLICK:
+      - type: CHAIR
+        y-offset: -0.4
+      PLACE:
+      - type: SOUND
+        sound: block.wood.place
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  armchair:
+    display: '&fArmchair'
+    item: TIPPED_ARROW
+    model_data: 3
+    rotation: 8
+    functions:
+      RIGHT_CLICK:
+      - type: CHAIR
+        y-offset: -0.5
+      PLACE:
+      - type: SOUND
+        sound: block.wood.place
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+  
+  school_chair:
+    display: '&fSchool Chair'
+    item: TIPPED_ARROW
+    model_data: 4
+    rotation: 8
+    functions:
+      RIGHT_CLICK:
+      - type: CHAIR
+        y-offset: -0.5
+      PLACE:
+      - type: SOUND
+        sound: block.wood.place
+      BREAK:
+      - type: SOUND
+        sound: block.wood.break
+
+Options:
+  checkForUpdates: true
